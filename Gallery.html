@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<style>
+    .container {
+      position: relative;
+      width: 70%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 40%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #e9c6e9;
+      color: rgb(231, 16, 16);
+      font-size: 25px;
+      
+    }
+    </style>
+<body>
+    <ul>
+        <li>
+            <a class="active" href="Project.html"> Home </a>
+        </li>
+        <li>
+            <a class="active" href="Aboutus.html">AboutUs</a>
+        </li>
+        <li><a class="active" href="Gallery.html">Gallery</a>
+        </li>
+        <li><a class="active" href="contactus.html">ContactUs</a>
+        </li>
+
+
+    </ul>
+    <h1>Some of the best BOOKS to read..</h1>
+    <div class="container">
+        <img src="/images/main-qimg-81f3332431e84738f17d3d6d922dd4b7.jpg" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">The Power of Your Subconcious Mind</div>
+        </div>
+
+      </div>
+      <div class="container">
+        <img src="/images/main-qimg-c2badbd5f998e663855928bdcb745afe.webp" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">The Magic of Thinking BIG</div>
+        </div>
+        
+      </div>
+      <br>
+      <div class="container">
+        <img src="/images/main-qimg-94a21bfa6e104fcbd4816311122b43f0-c.jpg" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">Think and Grow Rich</div>
+        </div>
+        
+      </div><div class="container">
+        <img src="/images/main-qimg-97dca59131639d906ddfd6ba5de0565d.png" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">Life is what you make it</div>
+        </div>
+        
+      </div><div class="container">
+        <img src="/images/main-qimg-ad7027d4b3aec574ebce9e78fec1fc12.webp" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">Secret</div>
+        </div>
+        
+      </div><div class="container">
+        <img src="/images/main-qimg-c13c5597edbd976971e3ae11a79568fd.webp" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">The Alchemist</div>
+        </div>
+        
+      </div>
+    
+</body>
+</html>

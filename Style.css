@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type:none ;
+    display: flex;
+    background-color: black;
+    padding:25px;
+    justify-content: right;
+
+}
+a{
+    color: rgb(27, 27, 25);
+    text-decoration: none;
+    margin:18px;
+    font-size: large;
+    
+    }
+
+.active{
+background-color:rgb(178, 209, 238);
+border: 2px solid red;
+  padding: 15px;
+  border-radius: 20px 5px;
+}
+
+
+.center{
+    font-size: 80px;     
+    position: fixed;
+    top: 55%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
